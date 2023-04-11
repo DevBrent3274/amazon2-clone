@@ -4,7 +4,7 @@
  function Product() {
   return <div className='product'>
     <div className='product-info'>
-      <p>The lean startup</p>
+      <p>Product info here</p>
       <p className='product-price'>19.95</p>
     </div>
   </div>
