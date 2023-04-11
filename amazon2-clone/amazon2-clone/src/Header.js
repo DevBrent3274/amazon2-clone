@@ -28,8 +28,8 @@ function Header() {
               </div>
 
               <div className='header-option'>
-                <span className='header-optionLineOne'>Orders</span>
-                <span className='header-optionLineTwo'>Your Prime</span>
+                <span className='header-optionLineOne'>Your</span>
+                <span className='header-optionLineTwo'>Prime</span>
               </div>
             
               <div className='header-optionBasket'>
