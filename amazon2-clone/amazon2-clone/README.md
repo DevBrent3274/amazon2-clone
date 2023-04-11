@@ -4,7 +4,7 @@ Working on a React app that replicates the Amazon website.  The focus will be on
 
 ## Progress Thus Far:
 
-![](./src/screenshot.png)
+![](./amazon-clone-2/amazon2-clone/amazon2-clone/amazon2-clone/screenshot.png)
 
 ## Available Scripts
 
