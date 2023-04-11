@@ -1,0 +1,73 @@
+.header {
+  position: sticky; /* Keeps header(or anything) "sticking to" the top as you scroll down */
+  top: 0;
+  background-color: #131921;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* 20px on the left and right and 0 on the top and bottom */
+  z-index: 100; /* Keeps header on top of everything else */
+}
+
+.header-logo {
+  width: 100px;
+  object-fit: contain; /* Keeps the image from stretching */
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header-search {
+  display: flex;
+  flex: 1; /* Takes up the entire space */
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header-searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+ }
+
+.header-searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+  /* border-radius: 0 2px 2px 0; */
+}
+
+.header-optionLineOne {
+  font-size: 13px;
+}
+
+.header-optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header-optionBasket {
+  display: flex;
+  align-items: center;
+  color:#f08804;
+}
+
+.header-basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Here we need to fit all the "header-option containers" side by side within the "header-nav container */
+.header-nav { 
+  display: flex; /* Makes the columns from "header-option" appear side by side in the difined "header-nav" row*/
+  justify-content: space-evenly;
+}
+
+/* Here we will stack the spans within the "header-option" containers on top of each other */
+.header-option {
+  display: flex; 
+  flex-direction: column; /* Makes the text appear on top of each other */
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
